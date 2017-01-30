@@ -1,5 +1,12 @@
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+@import "./constants.scss";
+
 body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
 }
+
+
+// Import component SCSS
+@import "./components/FrontView.scss";
