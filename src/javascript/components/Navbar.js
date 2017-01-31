@@ -16,10 +16,10 @@ const Navbar = (props) => {
                         <a className="nav-link" href="#">Services</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#">Blog</a>
+                        <a className="nav-link" href="#">Contact</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#">Contact</a>
+                        <a className="nav-link disabled" href="#">Blog</a>
                     </li>
                 </ul>
             </div>
