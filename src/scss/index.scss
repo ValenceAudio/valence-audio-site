@@ -23,3 +23,56 @@ body {
     font-size: 18px;
     padding: 20px 40px;
 }
+
+// Custom Navigation Bar
+
+.navbar-custom {
+    background-color: $primary-color-dark;
+    border-color: transparent;
+    .navbar-brand {
+        color: $primary-color-light;
+        &:hover,
+        &:focus,
+        &:active,
+        &.active {
+            color: darken($accent-color, 10%);
+        }
+    }
+    .navbar-collapse {
+        border-color: fade-out(white, .02);
+    }
+    .navbar-toggle {
+        background-color: $primary-color-dark;
+        border-color: $primary-color-dark;
+        color: white;
+        font-size: 12px;
+        &:hover,
+        &:focus {
+            background-color: $primary-color-dark;
+        }
+    }
+    .nav {
+        li {
+            a {
+                font-weight: 400;
+                letter-spacing: 1px;
+                color: white;
+                &:hover,
+                &:focus {
+                    color: $accent-color;
+                    outline: none;
+                }
+            }
+        }
+    }
+    .navbar-nav>.active>a {
+        border-radius: 0;
+        color: white;
+        background-color: $accent-color;
+    }
+    .navbar-nav>.active>a:hover,
+    .navbar-nav>.active>a:focus {
+        color: white;
+        background-color: darken($accent-color, 10%);
+    }
+}
