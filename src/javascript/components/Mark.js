@@ -1,16 +1,60 @@
 import React from 'react'
+import Navbar from './Navbar'
 
 const Mark = (props) => {
   return (
-    <header>
-      <div className="container">
-        <div className="intro-text">
-          <div className="intro-lead-in">Welcome to Valence Audio!</div>
-          <div className="intro-heading">CHECKOUT OUR PLATFORM</div>
-            <button type="button" className="btn btn-primary">Learn More</button>
+    <div className="container-fluid">
+      <div className="intro-header">
+        <Navbar/>
+        <div className="container-fluid">
+          <div className="row">
+            <div className="col-lg-12">
+              <div className="intro-text">
+                <div className="intro-lead-in">Welcome to Valence Audio!</div>
+                <div className="intro-heading">CHECKOUT OUR PLATFORM</div>
+                  <button type="button" className="btn btn-primary">Learn More</button>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </header>
+      <section id="services">
+          <div className="container-fluid">
+              <div className="row">
+                  <div className="col-lg-12 text-center">
+                      <h2 className="section-heading">Services</h2>
+                      <h3 className="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                  </div>
+              </div>
+              <div className="row text-center">
+                  <div className="col-md-4">
+                      <span className="fa-stack fa-4x">
+                          <i className="fa fa-circle fa-stack-2x text-primary"></i>
+                          <i className="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
+                      </span>
+                      <h4 className="service-heading">E-Commerce</h4>
+                      <p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                  </div>
+                  <div className="col-md-4">
+                      <span className="fa-stack fa-4x">
+                          <i className="fa fa-circle fa-stack-2x text-primary"></i>
+                          <i className="fa fa-laptop fa-stack-1x fa-inverse"></i>
+                      </span>
+                      <h4 className="service-heading">Responsive Design</h4>
+                      <p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                  </div>
+                  <div className="col-md-4">
+                      <span className="fa-stack fa-4x">
+                          <i className="fa fa-circle fa-stack-2x text-primary"></i>
+                          <i className="fa fa-lock fa-stack-1x fa-inverse"></i>
+                      </span>
+                      <h4 className="service-heading">Web Security</h4>
+                      <p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                  </div>
+              </div>
+          </div>
+      </section>
+    </div>
   )
 }
 

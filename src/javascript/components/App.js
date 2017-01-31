@@ -3,8 +3,7 @@ import Navbar from './Navbar'
 import Mark from './Mark'
 const App = (props) => {
   return (
-    <div className="container">
-      <Navbar/>
+    <div className="container-fluid">
       <Mark/>
     </div>
   )
