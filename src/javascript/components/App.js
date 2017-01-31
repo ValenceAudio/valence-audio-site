@@ -4,8 +4,8 @@ import Mark from './Mark'
 const App = (props) => {
   return (
     <div className="container">
-    <Navbar/>
-    <Mark/>
+      <Navbar/>
+      <Mark/>
     </div>
   )
 }

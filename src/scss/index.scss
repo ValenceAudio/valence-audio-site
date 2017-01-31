@@ -3,10 +3,13 @@
 @import "./fonts.scss";
 
 body {
-  background-color: $primary-color-dark;
-  margin: 0;
-  padding: 0;
-  font-family: "Dosis", sans-serif;
+    background-image: url('../image/mic3-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    text-align: center;
+    color: white;
 }
 
 // Restyled Primary Buttons
@@ -27,10 +30,9 @@ body {
 // Custom Navigation Bar
 
 .navbar-custom {
-    background-color: $primary-color-dark;
     border-color: transparent;
     .navbar-brand {
-        color: $primary-color-light;
+        color: $accent-color;
         &:hover,
         &:focus,
         &:active,
@@ -42,13 +44,13 @@ body {
         border-color: fade-out(white, .02);
     }
     .navbar-toggle {
-        background-color: $primary-color-dark;
-        border-color: $primary-color-dark;
+        background-color: $accent-color;
+        border-color: $accent-color;
         color: white;
         font-size: 12px;
         &:hover,
         &:focus {
-            background-color: $primary-color-dark;
+            background-color: $accent-color;
         }
     }
     .nav {
@@ -74,5 +76,24 @@ body {
     .navbar-nav>.active>a:focus {
         color: white;
         background-color: darken($accent-color, 10%);
+    }
+}
+
+header {
+    .intro-text {
+        padding-top: 200px;
+        padding-bottom: 50px;
+        .intro-lead-in {
+            font-style: italic;
+            font-size: 22px;
+            line-height: 22px;
+            margin-bottom: 25px;
+        }
+        .intro-heading {
+            font-weight: 700;
+            font-size: 50px;
+            line-height: 50px;
+            margin-bottom: 25px;
+        }
     }
 }
