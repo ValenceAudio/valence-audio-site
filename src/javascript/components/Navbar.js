@@ -9,7 +9,7 @@ const Navbar = (props) => {
             <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
             </button>
-            <a className="navbar-brand " href="#"> <img src={navbarLogo} className="img-fluild" width="65" height="60" alt="va"/></a>
+            <a className="navbar-brand " href="#"> <img src={navbarLogo} className="img-fluild" width="60" height="60" alt="va"/></a>
             <div className="collapse navbar-collapse" id="navbarNav">
                 <ul className="navbar-nav ml-auto">
                     <li className="nav-item">
