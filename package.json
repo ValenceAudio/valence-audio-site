@@ -2,6 +2,7 @@
   "name": "valence-audio-site",
   "version": "0.1.0",
   "private": false,
+  "license": "MIT",
   "homepage": "http://ValenceAudio.github.io/valence-audio-site",
   "devDependencies": {
     "autoprefixer": "6.5.1",
