@@ -3,5 +3,12 @@
 
 .Mark {
   background-color: $primary-color-dark;
+}
 
+.Mark__services {
+  background-color: white;
+  color: $primary-text-color;
+  .service-icon {
+    color: $accent-color;
+  }
 }

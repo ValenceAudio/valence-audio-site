@@ -1,5 +1,9 @@
 import React from 'react'
 import Navbar from './Navbar'
+import cssify from 'cssify'
+import '../../scss/components/Mark.scss'
+
+cssify.byUrl('//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css')
 
 const Mark = (props) => {
   return (
@@ -20,43 +24,42 @@ const Mark = (props) => {
       </div>
 
       {/* Services Section */}
-      <section id="services">
+      <section id="services" className="Mark__services">
           <div className="container-fluid">
               <div className="row">
                   <div className="col-lg-12 text-center">
                       <h2 className="section-heading">Services</h2>
-                      <h3 className="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
                   </div>
               </div>
               <div className="row text-center">
                   <div className="col-md-4">
                       <span className="fa-stack fa-4x">
-                          <i className="fa fa-circle fa-stack-2x text-primary"></i>
-                          <i className="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
+                          <i className="fa fa-circle fa-stack-2x service-icon"></i>
+                          <i className="fa fa-podcast fa-stack-1x fa-inverse"></i>
                       </span>
-                      <h4 className="service-heading">E-Commerce</h4>
-                      <p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                      <h4 className="service-heading">Editing</h4>
+                      <p className="text-muted">Lorem ipsum dolor sit amet</p>
                   </div>
                   <div className="col-md-4">
                       <span className="fa-stack fa-4x">
-                          <i className="fa fa-circle fa-stack-2x text-primary"></i>
+                          <i className="fa fa-circle fa-stack-2x service-icon"></i>
                           <i className="fa fa-laptop fa-stack-1x fa-inverse"></i>
                       </span>
-                      <h4 className="service-heading">Responsive Design</h4>
-                      <p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                      <h4 className="service-heading">Transcription</h4>
+                      <p className="text-muted">Lorem ipsum dolor sit amet</p>
                   </div>
                   <div className="col-md-4">
                       <span className="fa-stack fa-4x">
-                          <i className="fa fa-circle fa-stack-2x text-primary"></i>
-                          <i className="fa fa-lock fa-stack-1x fa-inverse"></i>
+                          <i className="fa fa-circle fa-stack-2x service-icon"></i>
+                          <i className="fa fa-cloud-upload fa-stack-1x fa-inverse"></i>
                       </span>
-                      <h4 className="service-heading">Web Security</h4>
-                      <p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                      <h4 className="service-heading">Upload</h4>
+                      <p className="text-muted">Lorem ipsum dolor sit amet</p>
                   </div>
               </div>
           </div>
       </section>
-    
+
       {/* Contact Section */}
       <section id="contact">
           <div className="container">
