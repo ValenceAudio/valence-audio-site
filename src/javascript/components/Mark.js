@@ -29,6 +29,7 @@ const Mark = (props) => {
               <div className="row">
                   <div className="col-lg-12 text-center">
                       <h2 className="section-heading">Services</h2>
+                      <hr className="primary"/>
                   </div>
               </div>
               <div className="row text-center">
