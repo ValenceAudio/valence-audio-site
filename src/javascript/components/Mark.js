@@ -8,20 +8,22 @@ cssify.byUrl('//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.
 const Mark = (props) => {
   return (
     <div className="container-fluid">
-      <div className="intro-header">
-        <Navbar/>
-        <div className="container-fluid">
-          <div className="row">
-            <div className="col-lg-12">
-              <div className="intro-text">
-                <div className="intro-lead-in">Welcome to Valence Audio!</div>
-                <div className="intro-heading">CHECKOUT OUR PLATFORM</div>
-                  <button type="button" className="btn btn-primary">Learn More</button>
+      <header>
+        <div className="intro-header">
+          <Navbar/>
+          <div className="container-fluid">
+            <div className="row">
+              <div className="col-lg-12">
+                <div className="intro-text">
+                  <div className="intro-lead-in">Welcome to Valence Audio!</div>
+                  <div className="intro-heading">CHECKOUT OUR PLATFORM</div>
+                    <button type="button" className="btn btn-primary">Learn More</button>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
+      </header>
 
       {/* Services Section */}
       <section id="services" className="Mark__services">
