@@ -35,27 +35,47 @@ const Mark = (props) => {
               <div className="row text-center">
                   <div className="col-md-4">
                       <span className="fa-stack fa-4x">
-                          <i className="fa fa-circle fa-stack-2x service-icon"></i>
-                          <i className="fa fa-podcast fa-stack-1x fa-inverse"></i>
+                          <i className="fa fa-podcast fa-stack-1x fa-inverse service-icon"></i>
                       </span>
                       <h4 className="service-heading">Editing</h4>
                       <p className="text-muted">Lorem ipsum dolor sit amet</p>
                   </div>
                   <div className="col-md-4">
                       <span className="fa-stack fa-4x">
-                          <i className="fa fa-circle fa-stack-2x service-icon"></i>
-                          <i className="fa fa-laptop fa-stack-1x fa-inverse"></i>
+                          <i className="fa fa-laptop fa-stack-1x fa-inverse service-icon"></i>
                       </span>
                       <h4 className="service-heading">Transcription</h4>
                       <p className="text-muted">Lorem ipsum dolor sit amet</p>
                   </div>
                   <div className="col-md-4">
                       <span className="fa-stack fa-4x">
-                          <i className="fa fa-circle fa-stack-2x service-icon"></i>
-                          <i className="fa fa-cloud-upload fa-stack-1x fa-inverse"></i>
+                          <i className="fa fa-cloud-upload fa-stack-1x fa-inverse service-icon"></i>
                       </span>
                       <h4 className="service-heading">Upload</h4>
                       <p className="text-muted">Lorem ipsum dolor sit amet</p>
+                  </div>
+              </div>
+          </div>
+      </section>
+
+
+      {/* Services Section */}
+      <section id="Portfolio" className="Mark__portfolio">
+          <div className="container-fluid">
+              <div className="row">
+                  <div className="col-lg-12 text-center">
+                      <h2 className="section-heading">Portfolio</h2>
+                      <hr className="light"/>
+                  </div>
+              </div>
+              <div className="row text-center">
+                  <div className="col-md-12">
+                      <span className="fa-stack fa-4x">
+                          <i className="fa fa-stack-2x"></i>
+                          <i className="fa fa-podcast fa-stack-1x fa-inverse"></i>
+                      </span>
+                      <h4 className="service-heading">Protractor Podcast</h4>
+                      <p>Lorem ipsum dolor sit amet</p>
                   </div>
               </div>
           </div>
