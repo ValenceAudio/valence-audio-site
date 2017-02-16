@@ -1,11 +1,11 @@
 import React from 'react'
-import Navbar from './Navbar'
+import Navbar from '../Navbar/Navbar'
 import cssify from 'cssify'
-import '../../scss/components/Mark.scss'
+import './Main.scss'
 
 cssify.byUrl('//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css')
 
-const Mark = (props) => {
+const Main = (props) => {
   return (
     <div className="container-fluid">
       <header>
@@ -17,7 +17,9 @@ const Mark = (props) => {
                 <div className="intro-text">
                   <div className="intro-lead-in">Welcome to Valence Audio!</div>
                   <div className="intro-heading">CHECKOUT OUR PLATFORM</div>
-                    <button type="button" className="btn btn-primary">Learn More</button>
+                    <a href="#services">
+                      <button type="button" className="btn btn-primary">Learn More</button>
+                    </a>
                 </div>
               </div>
             </div>
@@ -26,7 +28,7 @@ const Mark = (props) => {
       </header>
 
       {/* Services Section */}
-      <section id="services" className="Mark__services">
+      <section id="services" className="section-padding Mark__services">
           <div className="container-fluid">
               <div className="row">
                   <div className="col-lg-12 text-center">
@@ -62,7 +64,7 @@ const Mark = (props) => {
 
 
       {/* Services Section */}
-      <section id="Portfolio" className="Mark__portfolio">
+      <section id="Portfolio" className="section-padding Mark__portfolio">
           <div className="container-fluid">
               <div className="row">
                   <div className="col-lg-12 text-center">
@@ -84,7 +86,7 @@ const Mark = (props) => {
       </section>
 
       {/* Contact Section */}
-      <section id="contact">
+      <section id="contact" className="section-padding">
           <div className="container">
               <div className="row">
                   <div className="col-lg-12 text-center">
@@ -133,4 +135,4 @@ const Mark = (props) => {
   )
 }
 
-export default Mark;
+export default Main
