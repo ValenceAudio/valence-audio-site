@@ -586,9 +586,9 @@
   \******************/
 /***/ function(module, exports, __webpack_require__) {
 
-	__webpack_require__(/*! /home/mark/Documents/git-repos/podcasting/valence-audio-site/node_modules/react-dev-utils/webpackHotDevClient.js */1);
-	__webpack_require__(/*! /home/mark/Documents/git-repos/podcasting/valence-audio-site/config/polyfills.js */77);
-	module.exports = __webpack_require__(/*! /home/mark/Documents/git-repos/podcasting/valence-audio-site/src/index.js */84);
+	__webpack_require__(/*! /home/mackie/Code/valence-audio-site/node_modules/react-dev-utils/webpackHotDevClient.js */1);
+	__webpack_require__(/*! /home/mackie/Code/valence-audio-site/config/polyfills.js */77);
+	module.exports = __webpack_require__(/*! /home/mackie/Code/valence-audio-site/src/index.js */84);
 
 
 /***/ },
