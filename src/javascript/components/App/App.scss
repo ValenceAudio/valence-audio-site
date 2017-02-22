@@ -27,13 +27,18 @@ header {
               margin-bottom: 25px;
           }
           .intro-heading {
-              font-weight: 700;
+              font-weight: 1200;
               font-size: 50px;
               line-height: 50px;
               margin-bottom: 20px;
+              font-family: 'Ubuntu', sans-serif;
           }
       }
   }
+}
+
+.primary-font {
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .background-box {
@@ -63,6 +68,7 @@ hr.light {
     @include button-variant($accent-color, transparent, $accent-color);
     @include button-outline-variant($accent-color, $primary-text-color);
     font-weight: 700;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .btn-xl {

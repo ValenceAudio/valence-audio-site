@@ -7,7 +7,7 @@ cssify.byUrl('//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.
 
 const Main = (props) => {
   return (
-    <div className="container-fluid">
+    <div className="container-fluid primary-font">
       <header className="Main__background-filter">
       <div className="background-box">
         <div className="intro-header">
