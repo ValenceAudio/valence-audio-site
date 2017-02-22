@@ -6,7 +6,8 @@
 }
 
 .Mark__services {
-  background-color: white;
+  background-color: $primary-color-light;
+  color: $primary-text-color;
   .service-icon {
     color: $accent-color;
   }
@@ -14,8 +15,13 @@
 
 .Mark__portfolio {
   background-color: $accent-color;
-  color: $primary-color-text;
+  color: white;
   .service-icon {
     color: $accent-color;
   }
+}
+
+.Main__background-filter {
+  // -webkit-filter: sepia(50%);
+  // filter: saturate(50%);
 }
