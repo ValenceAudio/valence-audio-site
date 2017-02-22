@@ -1,11 +1,62 @@
 
 @import "../../../scss/constants.scss";
 
-.Navbar {
-  background-color: $primary-color-dark;
-}
-
 .Navbar__logo {
   height: 70px;
   width: auto;
+  opacity: 1;
+}
+
+// Custom Navigation Bar
+
+.navbar-custom {
+    border-color: transparent;
+    background-color: rgba(97,97,97,0.1);
+    font-family: 'Ubuntu', sans-serif;
+    .navbar-brand {
+        color: $accent-color;
+        &:hover,
+        &:focus,
+        &:active,
+        &.active {
+            color: darken($accent-color, 10%);
+        }
+    }
+    .navbar-collapse {
+        border-color: fade-out(white, .02);
+    }
+    .navbar-toggle {
+        background-color: $accent-color;
+        border-color: $accent-color;
+        color: white;
+        font-size: 12px;
+        &:hover,
+        &:focus {
+            background-color: $accent-color;
+        }
+    }
+    .nav {
+        li {
+            a {
+                font-weight: 400;
+                letter-spacing: 1px;
+                color: white;
+                &:hover,
+                &:focus {
+                    color: $accent-color;
+                    outline: none;
+                }
+            }
+        }
+    }
+    .navbar-nav>.active>a {
+        border-radius: 0;
+        color: white;
+        background-color: $accent-color;
+    }
+    .navbar-nav>.active>a:hover,
+    .navbar-nav>.active>a:focus {
+        color: white;
+        background-color: darken($accent-color, 10%);
+    }
 }

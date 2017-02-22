@@ -7,23 +7,22 @@ cssify.byUrl('//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.
 
 const Main = (props) => {
   return (
-    <div className="container-fluid">
-      <header>
+    <div className="container-fluid primary-font">
+      <header className="Main__background-filter">
+      <div className="background-box">
         <div className="intro-header">
           <Navbar/>
-          <div className="container-fluid">
-            <div className="row">
-              <div className="col-lg-12">
-                <div className="intro-text">
-                  <div className="intro-lead-in">Welcome to Valence Audio!</div>
-                  <div className="intro-heading">CHECKOUT OUR PLATFORM</div>
-                    <a href="#services">
-                      <button type="button" className="btn btn-primary">Learn More</button>
-                    </a>
-                </div>
+          <div className="row">
+            <div className="col-lg-12">
+              <div className="intro-text">
+                <div className="intro-heading">Record your podcast. We&rsquo;ll handle the rest.</div>
+                  <a href="#services">
+                    <button type="button" className="btn btn-primary">Learn More</button>
+                  </a>
               </div>
             </div>
           </div>
+        </div>
         </div>
       </header>
 
@@ -64,7 +63,7 @@ const Main = (props) => {
 
 
       {/* Services Section */}
-      <section id="Portfolio" className="section-padding Mark__portfolio">
+      <section id="portfolio" className="section-padding Mark__portfolio">
           <div className="container-fluid">
               <div className="row">
                   <div className="col-lg-12 text-center">
