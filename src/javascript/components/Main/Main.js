@@ -15,7 +15,7 @@ const Main = (props) => {
           <div className="row">
             <div className="col-lg-12">
               <div className="intro-text">
-                <div className="intro-heading">Get Your Voice Heard</div>
+                <div className="intro-heading">Record your podcast. We&rsquo;ll handle the rest.</div>
                   <a href="#services">
                     <button type="button" className="btn btn-primary">Learn More</button>
                   </a>
@@ -63,7 +63,7 @@ const Main = (props) => {
 
 
       {/* Services Section */}
-      <section id="Portfolio" className="section-padding Mark__portfolio">
+      <section id="portfolio" className="section-padding Mark__portfolio">
           <div className="container-fluid">
               <div className="row">
                   <div className="col-lg-12 text-center">
