@@ -30,9 +30,13 @@
     background-color: rgba(97,97,97,0.7);
   }
 
-  .porfolio-img {
+  .portfolio-img {
+    border-radius: 50%;
+    border-width: 2px;
+    border-color: $accent-color;
     height: 150px;
-    width: auto;
+    width: 150px;
+    margin: 20px 20px;
   }
 
 }

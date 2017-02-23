@@ -4,6 +4,7 @@ import cssify from 'cssify'
 import './Main.scss'
 
 import mindTheGap from '../../../image/mind-the-gap.png'
+import protractorPodcast from '../../../image/protractor-podcast.jpg'
 
 cssify.byUrl('//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css')
 
@@ -79,17 +80,17 @@ const Main = (props) => {
               </div>
               <div className="row text-center">
                   <div className="col-md-4">
-                      <img src={mindTheGap} className="img-circle porfolio-img"/>
+                      <img src={mindTheGap} className="img-rounded portfolio-img"/>
+                      <h4 className="service-heading">Mind The Gap</h4>
+                      <p>Lorem ipsum dolor sit amet</p>
+                  </div>
+                  <div className="col-md-4">
+                      <img src={protractorPodcast} className="portfolio-img"/>
                       <h4 className="service-heading">Protractor Podcast</h4>
                       <p>Lorem ipsum dolor sit amet</p>
                   </div>
                   <div className="col-md-4">
-                      <img src={mindTheGap} className="img-circle porfolio-img"/>
-                      <h4 className="service-heading">Protractor Podcast</h4>
-                      <p>Lorem ipsum dolor sit amet</p>
-                  </div>
-                  <div className="col-md-4">
-                      <img src={mindTheGap} className="img-circle porfolio-img"/>
+                      <img src={mindTheGap} className="img-circle portfolio-img"/>
                       <h4 className="service-heading">Protractor Podcast</h4>
                       <p>Lorem ipsum dolor sit amet</p>
                   </div>
