@@ -54,14 +54,6 @@ hr {
   padding-bottom: 20px;
 }
 
-hr.primary {
-  border-color: $accent-color;
-}
-
-hr.light {
-  border-color: $primary-color-text;
-}
-
 // Restyled Primary Buttons
 
 .btn-primary {
@@ -115,5 +107,5 @@ section {
 
 .section-padding {
   padding: 30px 0;
-  margin: 15px 0;
+  margin: 0px 0;
 }
