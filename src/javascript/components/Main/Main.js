@@ -3,6 +3,9 @@ import Navbar from '../Navbar/Navbar'
 import cssify from 'cssify'
 import './Main.scss'
 
+import mindTheGap from '../../../image/mind-the-gap.png'
+import protractorPodcast from '../../../image/protractor-podcast.jpg'
+
 cssify.byUrl('//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css')
 
 const Main = (props) => {
@@ -27,60 +30,104 @@ const Main = (props) => {
       </header>
 
       {/* Services Section */}
-      <section id="services" className="section-padding Mark__services">
+      <section id="services" className="Mark__services">
           <div className="container-fluid">
+            <div className="section-padding">
               <div className="row">
                   <div className="col-lg-12 text-center">
-                      <h2 className="section-heading">Services</h2>
+                      <h2 className="section-heading">What We Do</h2>
+                      <hr className="primary"/>
+                  </div>
+              </div>
+              <div className="row text-center icon-padding">
+                <div className="col-md-2"/>
+                <div className="col-md-2">
+                  <h2> Record Your Podcast </h2>
+                  <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore. </p>
+                </div>
+                <div className="col-md-4">
+                    <span className="fa-stack fa-4x">
+                        <i className="fa fa-circle fa-stack-2x service-icon"></i>
+                        <i className="fa fa-microphone fa-stack-1x fa-inverse"></i>
+                    </span>
+                </div>
+              </div>
+              <div className="row text-center icon-padding">
+                <div className="col-md-4"/>
+                <div className="col-md-4">
+                    <span className="fa-stack fa-4x">
+                        <i className="fa fa-arrow-down fa-stack-1x fa-inverse service-icon"></i>
+                    </span>
+                </div>
+              </div>
+              <div className="row text-center icon-padding">
+                <div className="col-md-4"/>
+                <div className="col-md-4">
+                    <span className="fa-stack fa-4x">
+                        <i className="fa fa-circle fa-stack-2x service-icon"></i>
+                        <i className="fa fa-laptop fa-stack-1x fa-inverse"></i>
+                    </span>
+                </div>
+                <div className="col-md-2">
+                  <h2> Record Your Podcast </h2>
+                  <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore. </p>
+                </div>
+                <div className="col-md-2"/>
+              </div>
+              <div className="row text-center icon-padding">
+                <div className="col-md-4"/>
+                <div className="col-md-4">
+                    <span className="fa-stack fa-4x">
+                        <i className="fa fa-arrow-down fa-stack-1x fa-inverse service-icon"></i>
+                    </span>
+                </div>
+              </div>
+              <div className="row text-center icon-padding">
+                <div className="col-md-2"/>
+                <div className="col-md-2">
+                  <h2> Record Your Podcast </h2>
+                  <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore. </p>
+                </div>
+                <div className="col-md-4">
+                    <span className="fa-stack fa-4x">
+                        <i className="fa fa-circle fa-stack-2x service-icon"></i>
+                        <i className="fa fa-podcast fa-stack-1x fa-inverse"></i>
+                    </span>
+                </div>
+              </div>
+            </div>
+          </div>
+      </section>
+
+
+      {/* Portfolio Section */}
+      <section id="portfolio" className="Mark__portfolio">
+          <div className="container-fluid portfolio-background-box">
+            <div className="section-padding">
+              <div className="row">
+                  <div className="col-lg-12 text-center">
+                      <h2 className="section-heading">Portfolio</h2>
                       <hr className="primary"/>
                   </div>
               </div>
               <div className="row text-center">
                   <div className="col-md-4">
-                      <span className="fa-stack fa-4x">
-                          <i className="fa fa-podcast fa-stack-1x fa-inverse service-icon"></i>
-                      </span>
-                      <h4 className="service-heading">Editing</h4>
-                      <p className="text-muted">Lorem ipsum dolor sit amet</p>
+                      <img src={mindTheGap} className="img-rounded portfolio-img"/>
+                      <h4 className="service-heading">Mind The Gap</h4>
+                      <p>Lorem ipsum dolor sit amet</p>
                   </div>
                   <div className="col-md-4">
-                      <span className="fa-stack fa-4x">
-                          <i className="fa fa-laptop fa-stack-1x fa-inverse service-icon"></i>
-                      </span>
-                      <h4 className="service-heading">Transcription</h4>
-                      <p className="text-muted">Lorem ipsum dolor sit amet</p>
+                      <img src={protractorPodcast} className="portfolio-img"/>
+                      <h4 className="service-heading">Protractor Podcast</h4>
+                      <p>Lorem ipsum dolor sit amet</p>
                   </div>
                   <div className="col-md-4">
-                      <span className="fa-stack fa-4x">
-                          <i className="fa fa-cloud-upload fa-stack-1x fa-inverse service-icon"></i>
-                      </span>
-                      <h4 className="service-heading">Upload</h4>
-                      <p className="text-muted">Lorem ipsum dolor sit amet</p>
-                  </div>
-              </div>
-          </div>
-      </section>
-
-
-      {/* Services Section */}
-      <section id="portfolio" className="section-padding Mark__portfolio">
-          <div className="container-fluid">
-              <div className="row">
-                  <div className="col-lg-12 text-center">
-                      <h2 className="section-heading">Portfolio</h2>
-                      <hr className="light"/>
-                  </div>
-              </div>
-              <div className="row text-center">
-                  <div className="col-md-12">
-                      <span className="fa-stack fa-4x">
-                          <i className="fa fa-stack-2x"></i>
-                          <i className="fa fa-podcast fa-stack-1x fa-inverse"></i>
-                      </span>
+                      <img src={mindTheGap} className="img-circle portfolio-img"/>
                       <h4 className="service-heading">Protractor Podcast</h4>
                       <p>Lorem ipsum dolor sit amet</p>
                   </div>
               </div>
+            </div>
           </div>
       </section>
 
