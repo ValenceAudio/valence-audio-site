@@ -1,0 +1,28 @@
+@import "../../palette.styl"
+
+$button-hover-color = #D39E00
+$button-shadow-color = rgba(255, 193, 7, 0.5)
+$button-border-color = rgb(201, 151, 0)
+
+.contact
+
+  .submit-button
+    color white
+    border-color $accent-color
+    background-color $accent-color
+    font-weight 700
+    border-radius 3px
+    font-size 18px
+    padding 20px 40px
+
+
+    &:hover
+      color white
+      background-color $button-hover-color
+
+    &:focus
+      box-shadow 0 0 0 2px
+      outline 0
+
+    &:active
+      border-color $button-border-color

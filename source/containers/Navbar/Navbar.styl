@@ -1,0 +1,52 @@
+@import "../../palette.styl"
+
+.navbar
+  border 0
+  background-color rgba(97, 97, 97, 0.2)
+
+  .navbar-toggler
+    margin-top 20px
+
+  .logo
+    padding 5px
+    height 90px
+
+  .navbar-collapse
+    border-color fade-out(white, 0.02)
+
+  .navbar-toggle
+    background-color $accent-color
+    border-color $accent-color
+    color white
+    font-size 12px
+
+    &:hover, &:focus
+      background-color $accent-color
+
+  .navbar-nav>.active>a
+    border-radius 0
+    color white
+    background-color $accent-color
+
+  .navbar-nav>.active>a:hover, .navbar-nav>.active>a:focus
+    color white
+    background-color darken($accent-color, 10%)
+
+
+@media (min-width 768px)
+    
+  .navbar-fixed-top, .navbar-fixed-bottom, .navbar-static-top
+    margin-left 0
+    margin-right 0
+    margin-bottom 0
+
+@media (max-width 767px)
+
+  .navbar
+
+    .logo
+      padding 10px
+      height 130px
+
+    .container
+      margin 0
