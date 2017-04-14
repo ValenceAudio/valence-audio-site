@@ -7,10 +7,6 @@ import Contact from "../Contact/Contact";
 import Portfolio from "../Portfolio/Portfolio";
 import Services from "../Services/Services";
 
-// Extra Build Imports
-import "../../public/favicon.ico";
-import "../../public/CNAME";
-
 const App = () =>
   <div className="container-fluid app" id="app">
     <Header />

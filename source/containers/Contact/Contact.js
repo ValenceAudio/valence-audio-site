@@ -5,12 +5,13 @@ import "./Contact.styl";
 import TextInput from "../TextInput/TextInput";
 
 const Contact = () =>
-  <section className="section-padding" id="contact">
+  <section className="section-padding contact" id="contact">
     <div className="container">
       
       <div className="row">
         <div className="col-lg-12 text-center">
           <h2 className="section-heading">Contact Us</h2>
+          <hr className="primary" />
         </div>
       </div>
 
@@ -27,7 +28,7 @@ const Contact = () =>
             <div className="row">
               <div className="col-md-6">
                 <TextInput name="Name" required />
-                <TextInput name="Email" required />
+                <TextInput name="Email" nameOverride="_replyto" required />
                 <TextInput name="Phone" required />
               </div>
               <div className="col-md-6">
@@ -45,7 +46,7 @@ const Contact = () =>
               <div className="clearfix"></div>
               <div className="col-lg-12 text-center">
                 <div id="success"></div>
-                <button className="btn btn-xl" type="submit">Send Message</button>
+                <input className="btn btn-xl" type="submit" value="Send Message" />
               </div>
             </div>
           </form>

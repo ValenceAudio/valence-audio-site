@@ -5,7 +5,7 @@ import "./Header.styl";
 import Navbar from "../Navbar/Navbar";
 
 const Header = () => 
-  <header className="Main__background-filter">
+  <header className="header">
     <div className="background-box">
       <div className="intro-header">
         <Navbar />

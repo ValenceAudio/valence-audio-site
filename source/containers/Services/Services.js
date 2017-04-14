@@ -8,8 +8,8 @@ const Services = () =>
         
         <div className="row">
             <div className="col-lg-12 text-center">
-                <h2 className="section-heading">What We Do</h2>
-                <hr className="primary" />
+              <h2 className="section-heading">What We Do</h2>
+              <hr className="primary" />
             </div>
         </div>
 
@@ -31,7 +31,7 @@ const Services = () =>
           <div className="col-md-4" />
           <div className="col-md-4">
               <span className="fa-stack fa-4x">
-                  <i className="fa fa-arrow-down fa-stack-1x fa-inverse service-icon"></i>
+                <i className="fa fa-arrow-down fa-stack-1x fa-inverse service-icon"></i>
               </span>
           </div>
         </div>
@@ -40,8 +40,8 @@ const Services = () =>
           <div className="col-md-4" />
           <div className="col-md-4">
               <span className="fa-stack fa-4x">
-                  <i className="fa fa-circle fa-stack-2x service-icon"></i>
-                  <i className="fa fa-laptop fa-stack-1x fa-inverse"></i>
+                <i className="fa fa-circle fa-stack-2x service-icon"></i>
+                <i className="fa fa-laptop fa-stack-1x fa-inverse"></i>
               </span>
           </div>
           <div className="col-md-2">
@@ -54,7 +54,7 @@ const Services = () =>
           <div className="col-md-4" />
           <div className="col-md-4">
               <span className="fa-stack fa-4x">
-                  <i className="fa fa-arrow-down fa-stack-1x fa-inverse service-icon"></i>
+                <i className="fa fa-arrow-down fa-stack-1x fa-inverse service-icon"></i>
               </span>
           </div>
         </div>
@@ -66,8 +66,8 @@ const Services = () =>
           </div>
           <div className="col-md-4">
               <span className="fa-stack fa-4x">
-                  <i className="fa fa-circle fa-stack-2x service-icon"></i>
-                  <i className="fa fa-podcast fa-stack-1x fa-inverse"></i>
+                <i className="fa fa-circle fa-stack-2x service-icon"></i>
+                <i className="fa fa-podcast fa-stack-1x fa-inverse"></i>
               </span>
           </div>
         </div>
