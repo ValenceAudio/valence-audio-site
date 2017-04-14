@@ -8,11 +8,12 @@ const PORT = 7447;
 const HOST = "0.0.0.0";
 const build_directory = "build";
 const source_directory = "source";
+const env = process.env.NODE_ENV;
 
 // This plugin allows for base-page template
 const HtmlWebpackPluginConfig = new HtmlWebpackPlugin({
   template: `${resolve(__dirname, source_directory)}/index.ejs`,
-  env: "development",
+  env: env,
   filename: "index.html",
   inject: "false",
   port: PORT

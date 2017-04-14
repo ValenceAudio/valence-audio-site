@@ -55,7 +55,7 @@
     "react-dom": "15.5.4"
   },
   "scripts": {
-    "deploy": "yarn run build && gh-pages -d build",
+    "deploy": "yarn run clean:full && yarn run build && gh-pages -d build",
     "clean": "rm -rf build/",
     "clean:full": "rm -rf build/ coverage/ node_modules/",
     "build": "NODE_ENV=production ./node_modules/.bin/webpack -p",
