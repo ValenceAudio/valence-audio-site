@@ -5,33 +5,35 @@ import "./Portfolio.styl";
 import mindTheGap from "../../image/mind-the-gap.png";
 import protractorPodcast from "../../image/protractor-podcast.jpg";
 
+// Component
+import Client from "../Client/Client";
+
 const Portfolio = () =>
   <section className="portfolio" id="portfolio">
       <div className="container-fluid portfolio-background-box">
         <div className="section-padding">
+
+          {/* Header */}
           <div className="row">
-              <div className="col-lg-12 text-center">
-                  <h2 className="section-heading">Portfolio</h2>
-                  <hr className="primary" />
-              </div>
+            <div className="col-lg-12 text-center">
+              <h2 className="section-heading">Portfolio</h2>
+              <hr className="primary" />
+            </div>
           </div>
+
+          {/* Client List */}
           <div className="row text-center">
-              <div className="col-md-4">
-                <img alt="Mind the Gap Logo" className="img-rounded portfolio-img" src={mindTheGap} />
-                <h4 className="service-heading">Mind The Gap</h4>
-                <p>Lorem ipsum dolor sit amet</p>
-              </div>
-              <div className="col-md-4">
-                <img alt="Protractor Podcast Logo" className="portfolio-img" src={protractorPodcast} />
-                <h4 className="service-heading">Protractor Podcast</h4>
-                <p>Lorem ipsum dolor sit amet</p>
-              </div>
-              <div className="col-md-4">
-                <img alt="Protractor Podcast Logo" className="img-circle portfolio-img" src={mindTheGap} />
-                <h4 className="service-heading">Protractor Podcast</h4>
-                <p>Lorem ipsum dolor sit amet</p>
-              </div>
+            <Client image={mindTheGap} name="Mind the Gap">
+              Lorem ipsum dolor sit.
+            </Client>
+            <Client image={protractorPodcast} name="Protractor Podcast">
+              Lorem ipsum dolor sit.
+            </Client>
+            <Client image={mindTheGap} name="Another Podcast">
+              Lorem ipsum dolor sit.
+            </Client>
           </div>
+
         </div>
       </div>
   </section>;

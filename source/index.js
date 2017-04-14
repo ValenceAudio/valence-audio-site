@@ -8,8 +8,8 @@ import "./containers/App/App.styl";
 import App from "./containers/App/App";
 
 // Extra Build Imports
-import "../../public/favicon.ico";
-import "../../public/CNAME";
+import "./public/favicon.ico";
+import "./public/CNAME";
 
 const render = (Component) => {
   ReactDOM.render(

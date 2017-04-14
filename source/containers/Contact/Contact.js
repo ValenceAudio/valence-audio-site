@@ -46,7 +46,7 @@ const Contact = () =>
               <div className="clearfix"></div>
               <div className="col-lg-12 text-center">
                 <div id="success"></div>
-                <input className="btn btn-xl" type="submit" value="Send Message" />
+                <input className="btn btn-xl submit-button" type="submit" value="Send Message" />
               </div>
             </div>
           </form>
