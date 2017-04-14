@@ -1,15 +1,10 @@
-# See http://help.github.com/ignore-files/ for more about ignoring files.
-
-# dependencies
-node_modules
-
-# testing
-coverage
-
-# production
-build
-
-# misc
+# Temporary Files
+npm-debug.log
 .DS_Store
 .env
-npm-debug.log
+
+# Infrastructure
+node_modules/
+coverage/
+build/
+binaries/
