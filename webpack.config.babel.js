@@ -75,9 +75,29 @@ const configuration = {
         ]
       },
       {
-        test: /\.(png|jpg|gif)$/,
+        test: /\.(png|jpe?g|gif)$/,
         exclude: /node_modules/,
-        loader: "file-loader?name=images/[hash].[ext]"
+        loader: [
+          "file-loader?name=images/[hash].[ext]",
+          {
+            loader: "img-loader",
+            options: {
+              enabled: true,
+              gifsicle: {
+                interlaced: false
+              },
+              mozjpeg: {
+                progressive: true,
+                arithmetic: false
+              },
+              optipng: false, // disabled 
+              pngquant: {
+                floyd: 0.5,
+                speed: 2
+              }
+            }
+          }
+        ]
       },
       {
         test: /\.ico$/,
