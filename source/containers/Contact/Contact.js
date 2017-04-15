@@ -19,12 +19,13 @@ const Contact = () =>
         <div className="col-lg-12">
 
           <form
-            action="https://formspree.io/mark@valence.audio/"
+            action="https://formspree.io/contact@valence.audio"
             id="contactForm"
             method="POST"
             name="sentMessage" 
             noValidate
           >
+            <input name="_cc" type="hidden" value="admin@valence.audio" />
             <div className="row">
               <div className="col-md-6">
                 <TextInput name="Name" required />
