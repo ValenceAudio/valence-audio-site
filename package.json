@@ -52,7 +52,7 @@
   },
   "dependencies": {
     "react": "15.5.4",
-    "react-dom": "15.5.4"
+    "react-dom": "15.6.2"
   },
   "scripts": {
     "deploy": "yarn run clean:full && yarn run build && gh-pages -d build",
