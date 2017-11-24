@@ -30,7 +30,7 @@
     "jest-cli": "19.0.2",
     "jest-css-modules": "1.1.0",
     "json-loader": "0.5.4",
-    "postcss-loader": "2.0.8",
+    "postcss-loader": "2.0.9",
     "postcss-svgo": "2.1.6",
     "node-sass": "^4.4.0",
     "object-assign": "4.1.1",
